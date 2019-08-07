@@ -18,12 +18,7 @@ firebase = firebase.FirebaseApplication('https://iot-raspi-d7b60.firebaseio.com/
 
 def main():
 
-
-
-
-
-
-         while True:
+	while True:
 
                 temperature = sensor.get_temperature()#Your room temp stored to temperature variable
                 print("\nThe room  temperature is %s celsius" % temperature)
